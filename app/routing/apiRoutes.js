@@ -27,12 +27,12 @@ app.post("/api/friends", function(req, res) {
   
   var newfriend = req.body;
 
-  
+ 
 
 
   var friendScore = newfriend.scores;
 
-  
+  console.log(friendScore);
 		
   var matchName = '';
 		
@@ -40,7 +40,24 @@ app.post("/api/friends", function(req, res) {
 		
   var totalDifference = 10000; 
 		
-  
+  for (var i = 0; i < friendsAPI.length; i++) {
+			
+		var diff = 0;
+			
+		// for (var s = 0; s < friendScore.length; s++) {
+		// 	diff += Math.abs(friendsAPI[i].scores[s] - friendScore[s]);
+		// }
+			
+		// if (diff < totalDifference) {
+				
+		// 	totalDifference = diff;
+		// 	matchName = friendsAPI[i].name;
+		// 	matchImage = friendsAPI[i].photo;
+		// }
+    };
+
+
+
   
   console.log(newfriend);
 
@@ -63,5 +80,5 @@ app.get("/api/friends", function(req, res) {
 
 
 
-};
+}
 
