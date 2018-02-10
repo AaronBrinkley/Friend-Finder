@@ -8,7 +8,7 @@ var bodyParser = require('body-parser');
 
  // var friendsAPI = friendsFile.friends
 
- var friendsFile = require('../app/data/friends.js');
+ var friendsFile = require('../data/friends.js');
 
 var friendsAPI = friendsFile.friends
 
