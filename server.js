@@ -11,9 +11,11 @@ var htmlFile = require('./app/routing/htmlRoutes.js');
 
 var apiFile = require('./app/routing/apiRoutes.js');
 
-var friendsFile = require('./app/data/friends.js');
-
 console.log("hello");
+
+var friendsFile = require('./app/data/friends.js');
+//
+
 
 var friendsAPI = friendsFile.friends
 
