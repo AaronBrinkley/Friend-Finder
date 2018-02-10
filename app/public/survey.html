@@ -167,8 +167,7 @@
  <div id="results-modal" class="modal fade" role="dialog">
     <div class="modal-dialog">
 
-      <!-- Modal content-->
-      <div class="modal-content">
+            <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal"></button>
           <h2 class="modal-title"><strong>Best Match</strong></h2>
@@ -216,7 +215,7 @@
       .then(function(data) {
         
         $("#match-name").text(data.name);
-        $("#match-img").attr("src", data.photo);
+        //$("#match-img").attr("src", data.photo);
 
           
         $("#results-modal").modal("toggle")
