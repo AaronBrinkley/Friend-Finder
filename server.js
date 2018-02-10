@@ -7,15 +7,15 @@ var path = require('path');
 
 var bodyParser = require('body-parser');
 
-console.log("hello");
+
 
 var htmlFile = require('./app/routing/htmlRoutes.js');
 
-console.log("hello");
+
 
 var apiFile = require('./app/routing/apiRoutes.js');
 
-console.log("dont see then it breaks")
+
 
 var friendsFile = require('./app/data/friends.js');
 //
