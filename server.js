@@ -1,6 +1,6 @@
 var express = require("express");
 
-console.log("hello");
+
 
 var path = require('path');
 
@@ -12,6 +12,8 @@ var htmlFile = require('./app/routing/htmlRoutes.js');
 var apiFile = require('./app/routing/apiRoutes.js');
 
 var friendsFile = require('./app/data/friends.js');
+
+console.log("hello");
 
 var friendsAPI = friendsFile.friends
 
